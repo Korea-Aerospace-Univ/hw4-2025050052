@@ -20,6 +20,10 @@ int main()
             if(countnum > maxcountnum)
                 maxcountnum = countnum;
         }
+        else{
+            count=0;
+            countnum=0;
+        }
     }
     printf("%d\n",maxcount);
     printf("%d\n",maxcountnum);
