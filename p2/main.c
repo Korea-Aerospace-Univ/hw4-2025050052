@@ -5,7 +5,7 @@ int main()
     int N=0, count=0, maxcount=0, countnum=0, maxcountnum=0, i=0; //각 변수들을 선언함과 동시에 0으로 초기화
     char answer; //변수선언
     scanf("%d", &N); //문자를 몇개 받을지 입력
-    getchar() //엔터 받아주기
+    getchar(); //엔터 받아주기
     for(i = 0; i < N; i++) { //입력받을 문자만큼 반복
         scanf("%c", &answer); //문자를 하나 입력받음
         
