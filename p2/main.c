@@ -2,9 +2,9 @@
 
 int main()
 {
-    int N, count, maxcount, countnum, maxcountnum, i=0;
+    int N=0, count=0, maxcount=0, countnum=0, maxcountnum=0, i=0;
     char answer;
-    scanf("%d", &N);
+    scanf("%d\n", &N);
     for(i = 0; i < N; i++) {
         scanf("%c", &answer);
         
